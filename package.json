@@ -1,0 +1,30 @@
+{
+  "name": "web-scraping-openfoodfacts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazziera/web-scraping-openfoodfacts.git"
+  },
+  "keywords": [],
+  "author": "Raphael Mazzieri Quitto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazziera/web-scraping-openfoodfacts/issues"
+  },
+  "homepage": "https://github.com/mazziera/web-scraping-openfoodfacts#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "puppeteer": "^22.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
